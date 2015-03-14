@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Bayu Adi Wibowo">
+    <title>First Media Smart Link</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+    <link href="css/media.css" rel="stylesheet" media="all">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 pull-left">
+                    <div class="logo">
+                        <img src="img/logo.jpg" alt="Back to First Media" class="pull-left img-responsive"> <h1 class="pull-left">Smart Link</h1>
+                    </div>
+                </div>
+                <div class="col-md-3 pull-right">
+                    <div class="current-user">
+                        <span class="user-name">Hi, Baydiwo</span>
+                        <span class="log-off"><a href=""><i class="flaticon-log-off"></i></a></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <nav>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="index.html" class="hvr-sweep-to-left">
+                                    <i class="flaticon-dashboard"></i>
+                                    <span>Dashboard</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="my-network.html" class="hvr-sweep-to-left">
+                                    <i class="flaticon-my-network "></i>
+                                    <span>My <br> Network</span>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="connected-devices.html" class="hvr-sweep-to-left">
+                                    <i class="flaticon-connected-devices"></i>
+                                    <span>Connected <br> Devices</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="wifi-setting.html" class="hvr-sweep-to-left">
+                                    <i class="flaticon-wifi-setting"></i>
+                                    <span>Wifi <br> Setting</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="diagnostic.html" class="hvr-sweep-to-left">
+                                    <i class="flaticon-diagnostic"></i>
+                                    <span>Diagnostic</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div><!-- left-sidebar -->
+                <div class="clearfix visible-xs-block visible-sm-block"></div>
+                <div class="col-md-10">
+                    <div class="dashboard connected-devices">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="page-title">
+                                    <i class="flaticon-connected-devices"></i><h2>Connected Devices</h2>
+                                </div>
+                            </div>
+                        </div><!-- row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="page-content content-connected-devices">
+                                    <div class="row">
+                                        <div class="col-md-6 pull-left">
+                                            <h4>Connection List</h4>
+                                        </div>
+                                        <div class="col-md-6 pull-right">
+                                            <div class="toggle" >
+                                                <div class="formField"><label>Show offline devices</label></div>
+                                                <div class="formValue">
+                                                    <div id="slider-frame-2" class="slider-frame">
+                                                        <span id="slider-button-2" class="slider-button">ON</span>
+                                                    </div>
+                                                </div>
+                                            </div><!-- toggle -->
+                                        </div>
+                                    </div>
+                                    <table class="table table-condensed">
+                                        <tr>
+                                            <th>Device</th>
+                                            <th>IP Address</th>
+                                            <th>Current State</th>
+                                            <th>Interface</th>
+                                            <th>Hostname</th>
+                                            <th>MAC Address</th>
+                                            <th>Network Access</th>
+                                        </tr>
+                                        <tr>
+                                            <td><div class="device-image"><img src="img/device1.jpg" alt=""></div></td>
+                                            <td>192.168.0.11</td>
+                                            <td><span class="green">Online</span></td>
+                                            <td>Ethernet</td>
+                                            <td>00:11:e6:de:ad:07</td>
+                                            <td>00:11:e6:de:ad:07</td>
+                                            <td>
+                                                <div class="toggle" >
+                                                    <div class="formValue">
+                                                        <div id="slider-frame-2" class="slider-frame">
+                                                            <span id="slider-button-2" class="slider-button">ON</span>
+                                                        </div>
+                                                    </div>
+                                                </div><!-- toggle -->
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><div class="device-image"><img src="img/device1.jpg" alt=""></div></td>
+                                            <td>192.168.0.11</td>
+                                            <td><span class="green">Online</span></td>
+                                            <td>Ethernet</td>
+                                            <td>00:11:e6:de:ad:07</td>
+                                            <td>00:11:e6:de:ad:07</td>
+                                            <td>
+                                                <div class="toggle" >
+                                                    <div class="formValue">
+                                                        <div id="slider-frame-2" class="slider-frame">
+                                                            <span id="slider-button-2" class="slider-button">ON</span>
+                                                        </div>
+                                                    </div>
+                                                </div><!-- toggle -->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- rightbar -->
+            </div>
+        </div><!-- container -->
+    </article>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <div>Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>, <a href="http://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a>, <a href="http://www.flaticon.com/authors/google" title="Google">Google</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div> -->
+  </body>
+</html>
