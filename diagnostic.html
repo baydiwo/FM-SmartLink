@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +12,10 @@
     <link href="css/style.css" rel="stylesheet" media="screen">
     <link href="css/media.css" rel="stylesheet" media="all">
 
+    <!-- overlaymenu -->
+    <link rel="stylesheet" type="text/css" href="css/overlay-menu.css" />
+    <script src="js/modernizr.custom.js"></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -23,15 +27,21 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-md-5 pull-left">
+                <div class="col-md-5 pull-left col-xs-12">
                     <div class="logo">
                         <img src="img/logo.jpg" alt="Back to First Media" class="pull-left img-responsive"> <h1 class="pull-left">Smart Link</h1>
                     </div>
                 </div>
-                <div class="col-md-3 pull-right">
+                <div class="col-md-3 pull-right col-xs-12">
                     <div class="current-user">
                         <span class="user-name">Hi, Baydiwo</span>
                         <span class="log-off"><a href=""><i class="flaticon-log-off"></i></a></span>
+                        <button id="trigger-overlay" type="button" class="navbar-toggle collapsed">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
                     </div>
 
                 </div>
@@ -114,11 +124,52 @@
             </div>
         </div><!-- container -->
     </article>
-
+    <!-- open/close -->
+    <div class="overlay overlay-hugeinc">
+        <button type="button" class="overlay-close">Close</button>
+        <nav>
+            <ul>
+                <li class="active">
+                    <a href="index.html">
+                        <i class="flaticon-dashboard"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="my-network.html">
+                        <i class="flaticon-my-network "></i>
+                        <span>My <br class="none"> Network</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="connected-devices.html">
+                        <i class="flaticon-connected-devices"></i>
+                        <span>Connected <br class="none"> Devices</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="wifi-setting.html">
+                        <i class="flaticon-wifi-setting"></i>
+                        <span>Wifi <br class="none"> Setting</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="diagnostic.html">
+                        <i class="flaticon-diagnostic"></i>
+                        <span>Diagnostic</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- overlaymenu dependencies -->
+    <script src="js/classie.js"></script>
+    <script src="js/demo1.js"></script>
     <!-- <div>Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>, <a href="http://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a>, <a href="http://www.flaticon.com/authors/google" title="Google">Google</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div> -->
   </body>
 </html>
