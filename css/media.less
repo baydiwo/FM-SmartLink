@@ -51,32 +51,7 @@
 	}
 
 	article {
-		nav {display: none;
-			border-width: 0 @imp;
-	    	width: 100% !important;
-			&:after {
-				display: none;
-			}
-			ul {
-				margin: 0; padding: 0;
-				li {
-					float: left;
-					width: 100% / 5;
-					a {
-						border-right: 1px solid @lightBlue;
-						padding: 10px @imp;
-						height: auto;
-						line-height: 1.1em;
-						font-size: 10px @imp;
-						[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-						[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
-							font-size: 15px @imp;
-						}
-						span {margin-top: 0 @imp;}
-					}
-				}
-			}
-		}//nav
+		nav {display: none;}
 		.box.box-connected-devices {margin-top: 30px;}
 		.box.box-diagnostic {margin-bottom: 30px;}
 		.dashboard {margin-top: 20px;
@@ -174,47 +149,22 @@
 
 	a.more-details, input.more-details, button.more-details {font-size: 12px;}
 
-	.overlay nav {
-		height: 50%;
-		font-size: 18px;
-	}
-	.overlay .overlay-close {height: 20px; width: 20px;}
-
 	header {height: 80px;
-		.current-user {margin-top: 25px;
-			.user-name {font-size: 16px;}
+		.current-user {margin-top: 0px;
+			.user-name {font-size: 14px;}
 		}
 		.logo {
-			img {width: 100px;}
-			h1 {margin-top: 20px;}
+			img {width: 60px;}
+			h1 {margin-top: 5px;}
 		}
-	}
+		.navbar-toggle {margin: 0px;padding: 3px;}
+	}//header
+	.overlay nav {font-size: 16px @imp;}
+	.overlay ul li {height:calc(69% / 5) @imp;}
+	.overlay .overlay-close {height: 20px @imp; width: 20px @imp;}
+
 	article {
-		nav {
-	    	width: 100% !important;
-	    	border-width: 0 @imp;
-			&:after {
-				display: none;
-			}
-			ul {
-				margin: 0; padding: 0;
-				li {
-					float: left;
-					width: 100% / 5;
-					a {
-						border-right: 1px solid @lightBlue;
-						padding: 10px @imp;
-						height: auto;
-						font-size: 12px @imp;
-						[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-						[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
-							font-size: 20px @imp;
-						}
-						span {margin-top: 0 @imp;}
-					}
-				}
-			}
-		}//nav
+		nav {display: none; }
 		.dashboard {margin-top: 20px;
 			.box {
 				.details {
