@@ -55,7 +55,7 @@
                     <nav>
                         <ul class="list-unstyled">
                             <li>
-                                <a href="index.html" class="hvr-sweep-to-left">
+                                <a href="dashboard.html" class="hvr-sweep-to-left">
                                     <i class="flaticon-dashboard"></i>
                                     <span>Dashboard</span>
                                 </a>
@@ -99,9 +99,12 @@
                                     <div class="toggle" >
                                         <div class="formField"><label>Setup in advanced mode</label></div>
                                         <div class="formValue">
-                                            <div id="slider-frame-2" class="slider-frame">
-                                                <span id="slider-button-2" class="slider-button">ON</span>
+                                            <div id="switch-setup-1" class="slider-frame on">
+                                                <span id="slider-button-1" class="slider-button">ON</span>
                                             </div>
+                                            <!-- <div id="slider-frame-off" class="slider-frame on">
+                                                <span id="slider-button-off" class="slider-button">OFF</span>
+                                            </div> -->
                                         </div>
                                     </div><!-- toggle -->
                                     <div class="clearfix"></div>
@@ -112,14 +115,14 @@
                             <div class="col-md-12">
                                 <div class="page-content content-wifi-setting">
                                     <div class="box-title"><h3>Primary Connection</h3></div>
-                                    <div class="setup">
+                                    <div class="setup simple-setup" style="display:block;">
                                         <dl class="dl-horizontal">
                                             <dt>Enable wifi :</dt>
                                             <dd>
                                                 <div class="toggle" >
                                                     <div class="formValue">
-                                                        <div id="slider-frame-2" class="slider-frame">
-                                                            <span id="slider-button-2" class="slider-button">ON</span>
+                                                        <div id="slider-frame-21" class="slider-frame on">
+                                                            <span id="slider-button-21" class="slider-button">ON</span>
                                                         </div>
                                                     </div>
                                                 </div><!-- toggle -->
@@ -128,8 +131,34 @@
                                             <dd>
                                                 <div class="toggle" >
                                                     <div class="formValue">
-                                                        <div id="slider-frame-2" class="slider-frame">
-                                                            <span id="slider-button-2" class="slider-button">ON</span>
+                                                        <div id="slider-frame-22" class="slider-frame on">
+                                                            <span id="slider-button-22" class="slider-button">ON</span>
+                                                        </div>
+                                                    </div>
+                                                </div><!-- toggle -->
+                                            </dd>
+                                            <dt>Password :</dt>
+                                            <dd><input type="text" class="form-acs"></dd>
+                                        </dl>
+                                    </div><!-- setup -->
+                                    <div class="setup advanced-setup" id="" style="display:none;">
+                                        <dl class="dl-horizontal">
+                                            <dt>Enable wifi :</dt>
+                                            <dd>
+                                                <div class="toggle" >
+                                                    <div class="formValue">
+                                                        <div id="slider-frame-21" class="slider-frame on">
+                                                            <span id="slider-button-21" class="slider-button">ON</span>
+                                                        </div>
+                                                    </div>
+                                                </div><!-- toggle -->
+                                            </dd>
+                                            <dt>Security :</dt>
+                                            <dd>
+                                                <div class="toggle" >
+                                                    <div class="formValue">
+                                                        <div id="slider-frame-22" class="slider-frame on">
+                                                            <span id="slider-button-22" class="slider-button">ON</span>
                                                         </div>
                                                     </div>
                                                 </div><!-- toggle -->
@@ -142,8 +171,8 @@
                                             <dd>
                                                 <div class="toggle" >
                                                     <div class="formValue">
-                                                        <div id="slider-frame-2" class="slider-frame">
-                                                            <span id="slider-button-2" class="slider-button">ON</span>
+                                                        <div id="slider-frame-13" class="slider-frame on">
+                                                            <span id="slider-button-13" class="slider-button">ON</span>
                                                         </div>
                                                     </div>
                                                 </div><!-- toggle -->
@@ -162,37 +191,93 @@
                                             <dd><input type="password" class="form-acs"></dd>
                                         </dl>
                                     </div><!-- setup -->
-                                    <div class="setup">
-                                        <dl class="dl-horizontal">
-                                            <dt><p>Enable wifi :</p></dt>
-                                            <dd>
-                                                <div class="toggle" >
-                                                    <div class="formValue">
-                                                        <div id="slider-frame-2" class="slider-frame">
-                                                            <span id="slider-button-2" class="slider-button">ON</span>
+                                    <div class="collapse" id="guestAdvancedConnection">
+                                        <div class="setup simple-setup" style="display:block">
+                                            <dl class="dl-horizontal">
+                                                <dt><p>Enable wifi :</p></dt>
+                                                <dd>
+                                                    <div class="toggle" >
+                                                        <div class="formValue">
+                                                            <div id="slider-frame-24" class="slider-frame on">
+                                                                <span id="slider-button-24" class="slider-button">ON</span>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                </div><!-- toggle -->
-                                            </dd>
-                                            <dt>Security :</dt>
-                                            <dd>
-                                                <div class="toggle" >
-                                                    <div class="formValue">
-                                                        <div id="slider-frame-2" class="slider-frame">
-                                                            <span id="slider-button-2" class="slider-button">ON</span>
+                                                    </div><!-- toggle -->
+                                                </dd>
+                                                <dt>Security :</dt>
+                                                <dd>
+                                                    <div class="toggle" >
+                                                        <div class="formValue">
+                                                            <div id="slider-frame-34" class="slider-frame on">
+                                                                <span id="slider-button-34" class="slider-button">ON</span>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                </div><!-- toggle -->
-                                            </dd>
-                                            <dt>Wifi name :</dt>
-                                            <dd><input type="text" class="form-acs"></dd>
-                                            <dt>Password :</dt>
-                                            <dd><input type="text" class="form-acs"></dd>
-                                        </dl>
-                                    </div><!-- setup -->
+                                                    </div><!-- toggle -->
+                                                </dd>
+                                                <dt>Wifi name :</dt>
+                                                <dd><input type="text" class="form-acs"></dd>
+                                                <dt>Password :</dt>
+                                                <dd><input type="text" class="form-acs"></dd>
+                                            </dl>
+                                        </div><!-- setup -->
+                                        <div class="setup advanced-setup" style="display:none;">
+                                            <dl class="dl-horizontal">
+                                                <dt>Enable wifi :</dt>
+                                                <dd>
+                                                    <div class="toggle" >
+                                                        <div class="formValue">
+                                                            <div id="slider-frame-21" class="slider-frame on">
+                                                                <span id="slider-button-21" class="slider-button">ON</span>
+                                                            </div>
+                                                        </div>
+                                                    </div><!-- toggle -->
+                                                </dd>
+                                                <dt>Security :</dt>
+                                                <dd>
+                                                    <div class="toggle" >
+                                                        <div class="formValue">
+                                                            <div id="slider-frame-22" class="slider-frame on">
+                                                                <span id="slider-button-22" class="slider-button">ON</span>
+                                                            </div>
+                                                        </div>
+                                                    </div><!-- toggle -->
+                                                </dd>
+                                                <dt>Wifi name :</dt>
+                                                <dd><input type="text" class="form-acs"></dd>
+                                                <dt>Password :</dt>
+                                                <dd><input type="text" class="form-acs"></dd>
+                                                <dt>Broadcast wifi :</dt>
+                                                <dd>
+                                                    <div class="toggle" >
+                                                        <div class="formValue">
+                                                            <div id="slider-frame-13" class="slider-frame on">
+                                                                <span id="slider-button-13" class="slider-button">ON</span>
+                                                            </div>
+                                                        </div>
+                                                    </div><!-- toggle -->
+                                                </dd>
+                                                <dt>Security type :</dt>
+                                                <dd>
+                                                    <select class="form-acs">
+                                                        <option>WPA2</option>
+                                                        <option>WEP</option>
+                                                        <option>None</option>
+                                                        <option>WPA</option>
+                                                        <option>Mixed</option>
+                                                  </select>
+                                                </dd>
+                                                <dt>Password :</dt>
+                                                <dd><input type="password" class="form-acs"></dd>
+                                            </dl>
+                                        </div><!-- setup -->
+                                    </div>
                                     <div class="more-action">
                                         <div class="row">
-                                            <div class="col-sm-6"><div class="add-guest"><a href="#" class="more-details hvr-rectangle-out">Add Guest Wifi</a></div></div>
+                                            <div class="col-sm-6"><div class="add-guest">
+                                                <a class="more-details hvr-rectangle-out" data-toggle="collapse" href="#guestAdvancedConnection" aria-expanded="false" aria-controls="guestAdvancedConnection">
+                                                    Add Guest Wifi
+                                                </a>
+                                            </div></div>
                                             <div class="col-sm-6">
                                                 <div class="action">
                                                     <input type="submit" class="more-details hvr-rectangle-out" value="Apply">
@@ -216,7 +301,7 @@
         <nav>
             <ul>
                 <li class="active">
-                    <a href="index.html">
+                    <a href="dashboard.html">
                         <i class="flaticon-dashboard"></i>
                         <span>Dashboard</span>
                     </a>
@@ -250,6 +335,21 @@
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script>
+    $(document).ready(function($) {
+        $(".toggle div[id]").click(function() {
+            var toggleid = this.id;
+            var num = toggleid.replace( /^\D+/g, '');
+            $('#slider-button-'+num).html($('#slider-button-'+num).text() == 'ON' ? 'OFF' : 'ON');
+            $( this ).toggleClass( "on", 50, "linear");
+        });
+        $('#switch-setup-1').click(function(){
+            $('.simple-setup').slideToggle();
+            $('.advanced-setup').slideToggle();
+        });
+    });
+    </script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 

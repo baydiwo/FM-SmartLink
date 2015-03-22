@@ -51,34 +51,34 @@
     <article>
         <div class="container">
             <div class="row">
-                <div class="col-md-2 col-sm-12">
+                <div class="col-md-2 col-sm-12 col-xs-12">
                     <nav>
                         <ul class="list-unstyled">
-                            <li class="active">
-                                <a href="index.html" class="hvr-sweep-to-left">
+                            <li class="disabled">
+                                <a href="dashboard.html" class="hvr-sweep-to-left">
                                     <i class="flaticon-dashboard"></i>
                                     <span>Dashboard</span>
                                 </a>
                             </li>
-                            <li>
+                            <li class="active">
                                 <a href="my-network.html" class="hvr-sweep-to-left">
                                     <i class="flaticon-my-network "></i>
-                                    <span>My <br class="none"> Network</span>
+                                    <span>My <br> Network</span>
                                 </a>
                             </li>
-                            <li>
+                            <li class="disabled">
                                 <a href="connected-devices.html" class="hvr-sweep-to-left">
                                     <i class="flaticon-connected-devices"></i>
-                                    <span>Connected <br class="none"> Devices</span>
+                                    <span>Connected <br> Devices</span>
                                 </a>
                             </li>
-                            <li>
+                            <li class="disabled">
                                 <a href="wifi-setting.html" class="hvr-sweep-to-left">
                                     <i class="flaticon-wifi-setting"></i>
-                                    <span>Wifi <br class="none"> Setting</span>
+                                    <span>Wifi <br> Setting</span>
                                 </a>
                             </li>
-                            <li>
+                            <li class="disabled">
                                 <a href="diagnostic.html" class="hvr-sweep-to-left">
                                     <i class="flaticon-diagnostic"></i>
                                     <span>Diagnostic</span>
@@ -88,106 +88,62 @@
                     </nav>
                 </div><!-- left-sidebar -->
                 <div class="clearfix visible-xs-block visible-sm-block"></div>
-                <div class="col-md-10 col-sm-12">
-                    <div class="dashboard">
+                <div class="col-md-10">
+                    <div class="dashboard my-network">
                         <div class="row">
-                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                <div class="box box-my-network pull-left">
-                                    <div class="title pull-left">
-                                        <i class="flaticon-my-network"></i><h3>My Network</h3>
-                                    </div>
-                                    <div class="details pull-left">
-                                        <div class="row">
-                                            <div class="col-xs-4">
-                                                <div class="icon">
-                                                    <img class="img-responsive" src="img/icon-mynetwork.jpg" alt="My Network">
-                                                </div>
-                                            </div>
-                                            <div class="col-xs-8">
-                                                <div class="info">
-                                                    <dl class="dl-horizontal">
-                                                        <dt>Identifier</dt><dd>: 091238jljd09</dd>
-                                                        <dt>Device type</dt><dd>: DPC2320</dd>
-                                                        <dt>Status</dt><dd><span class="green">: Online</span></dd>
-                                                    </dl>
-                                                    <a href="#" class="more-details hvr-rectangle-out">Details</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- box -->
-                                <div class="box box-my-network box-2nd-row pull-left">
-                                    <div class="title pull-left">
-                                        <i class="flaticon-wifi-setting2"></i><h3>Wifi Setting</h3>
-                                    </div>
-                                    <div class="details pull-left">
-                                        <div class="row">
-                                            <div class="col-xs-4">
-                                                <div class="icon">
-                                                    <img class="img-responsive" src="img/icon-wifisetting.jpg" alt="My Network">
-                                                </div>
-                                            </div>
-                                            <div class="col-xs-8">
-                                                <div class="info">
-                                                    <dl class="dl-horizontal">
-                                                        <dt>Wireless</dt><dd>: <span class="green">On</span></dd>
-                                                        <dt>Wifi name</dt><dd>: My Home</dd>
-                                                        <dt>Security</dt><dd>: Off</dd>
-                                                    </dl>
-                                                    <a href="#" class="more-details hvr-rectangle-out">Details</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- box -->
+                            <div class="col-md-12">
+                                <div class="page-title">
+                                    <i class="flaticon-my-network"></i><h2>My Network</h2>
+                                </div>
                             </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                <div class="box box-connected-devices pull-left">
-                                    <div class="title pull-left">
-                                        <i class="flaticon-connected-devices"></i><h3>Connected Devices</h3>
-                                    </div>
-                                    <div class="details pull-left">
-                                        <div class="row">
-                                            <div class="col-xs-4">
-                                                <div class="icon">
-                                                    <img class="img-responsive" src="img/icon-connecteddevices.jpg" alt="Connected Device">
+                        </div><!-- row -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="page-content content-my-network">
+                                    <table class="table table-bordered table-my-network">
+                                        <tr>
+                                            <th colspan="3">Devices</th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="device-image">
+                                                    <img src="img/device1.jpg" alt="">
                                                 </div>
-                                            </div>
-                                            <div class="col-xs-8">
+                                            </td>
+                                            <td>
                                                 <div class="info">
                                                     <dl class="dl-horizontal">
-                                                        <dt>Connected Devices</dt><dd>: 4</dd>
-                                                        <dt>Online Devices</dt><dd>: 2</dd>
+                                                        <dt>Identifier</dt><dd>: c8fb265884a5</dd>
+                                                        <dt>Device type</dt><dd>: DPC3828AD</dd>
+                                                        <dt>Status</dt><dd>:<span class="green"> Online</span></dd>
                                                     </dl>
-                                                    <a href="#" class="more-details hvr-rectangle-out">Details</a>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- box -->
-                                <div class="box box-diagnostic box-2nd-row pull-left">
-                                    <div class="title pull-left">
-                                        <i class="flaticon-diagnostic"></i><h3>Diagnostic</h3>
-                                    </div>
-                                    <div class="details pull-left">
-                                        <div class="row">
-                                            <div class="col-xs-4">
-                                                <div class="icon">
-                                                    <img class="img-responsive" src="img/icon-diagnostics.jpg" alt="Diagnostic">
+                                            </td>
+                                            <td>
+                                                <a href="dashboard.html" class="more-details hvr-rectangle-out">Details</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="device-image">
+                                                    <img src="img/device1.jpg" alt="">
                                                 </div>
-                                            </div>
-                                            <div class="col-xs-8">
+                                            </td>
+                                            <td>
                                                 <div class="info">
-                                                    <dl>
-                                                        <dt>Firmware version :</dt><dd>dpc2300r2-v202r124482-1303
-11as-v6</dd>
+                                                    <dl class="dl-horizontal">
+                                                        <dt>Identifier</dt><dd>: c8fb265884a5</dd>
+                                                        <dt>Device type</dt><dd>: DPC3828AD</dd>
+                                                        <dt>Status</dt><dd>:<span class="red"> Offline</span></dd>
                                                     </dl>
-                                                    <a href="#" class="more-details hvr-rectangle-out">Details</a>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- box -->
+                                            </td>
+                                            <td>
+                                                <a href="#" class="more-details hvr-rectangle-out">Details</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -201,30 +157,30 @@
         <nav>
             <ul>
                 <li class="active">
-                    <a href="index.html">
+                    <a href="dashboard.html">
                         <i class="flaticon-dashboard"></i>
                         <span>Dashboard</span>
                     </a>
                 </li>
-                <li>
+                <li class="disabled">
                     <a href="my-network.html">
                         <i class="flaticon-my-network "></i>
                         <span>My <br class="none"> Network</span>
                     </a>
                 </li>
-                <li>
+                <li class="disabled">
                     <a href="connected-devices.html">
                         <i class="flaticon-connected-devices"></i>
                         <span>Connected <br class="none"> Devices</span>
                     </a>
                 </li>
-                <li>
+                <li class="disabled">
                     <a href="wifi-setting.html">
                         <i class="flaticon-wifi-setting"></i>
                         <span>Wifi <br class="none"> Setting</span>
                     </a>
                 </li>
-                <li>
+                <li class="disabled">
                     <a href="diagnostic.html">
                         <i class="flaticon-diagnostic"></i>
                         <span>Diagnostic</span>

@@ -55,7 +55,7 @@
                     <nav>
                         <ul class="list-unstyled">
                             <li>
-                                <a href="index.html" class="hvr-sweep-to-left">
+                                <a href="dashboard.html" class="hvr-sweep-to-left">
                                     <i class="flaticon-dashboard"></i>
                                     <span>Dashboard</span>
                                 </a>
@@ -108,8 +108,8 @@
                                             <div class="toggle" >
                                                 <div class="formField"><label>Show offline devices</label></div>
                                                 <div class="formValue">
-                                                    <div id="slider-frame-2" class="slider-frame">
-                                                        <span id="slider-button-2" class="slider-button">ON</span>
+                                                    <div id="slider-frame-26" class="slider-frame on">
+                                                        <span id="slider-button-26" class="slider-button">ON</span>
                                                     </div>
                                                 </div>
                                             </div><!-- toggle -->
@@ -135,8 +135,8 @@
                                             <td>
                                                 <div class="toggle" >
                                                     <div class="formValue">
-                                                        <div id="slider-frame-2" class="slider-frame">
-                                                            <span id="slider-button-2" class="slider-button">ON</span>
+                                                        <div id="slider-frame-27" class="slider-frame on">
+                                                            <span id="slider-button-27" class="slider-button">ON</span>
                                                         </div>
                                                     </div>
                                                 </div><!-- toggle -->
@@ -152,8 +152,8 @@
                                             <td>
                                                 <div class="toggle" >
                                                     <div class="formValue">
-                                                        <div id="slider-frame-2" class="slider-frame">
-                                                            <span id="slider-button-2" class="slider-button">ON</span>
+                                                        <div id="slider-frame-28" class="slider-frame on">
+                                                            <span id="slider-button-28" class="slider-button">ON</span>
                                                         </div>
                                                     </div>
                                                 </div><!-- toggle -->
@@ -174,7 +174,7 @@
         <nav>
             <ul>
                 <li class="active">
-                    <a href="index.html">
+                    <a href="dashboard.html">
                         <i class="flaticon-dashboard"></i>
                         <span>Dashboard</span>
                     </a>
@@ -208,6 +208,17 @@
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script>
+    $(document).ready(function($) {
+        $(".toggle div[id]").click(function() {
+            var toggleid = this.id;
+            var num = toggleid.replace( /^\D+/g, '');
+            $('#slider-button-'+num).html($('#slider-button-'+num).text() == 'ON' ? 'OFF' : 'ON');
+            $( this ).toggleClass( "on", 50, "linear");
+        });
+    });
+    </script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
