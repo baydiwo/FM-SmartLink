@@ -136,6 +136,13 @@
 	.table-my-network {
 		.more-details {padding: inherit @imp;}
 	}
+	.chooseDeviceIcon {
+		.modal-dialog {
+		width: 90%;margin: 10% auto;
+		form > div {border:none @imp;}
+		.select-icon {text-align: center;}
+		}
+	}
  }
 //ipad and tablet
 @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
@@ -146,7 +153,13 @@
 	p {font-size: 10px; }
 	body {font: 10px;}
 	.none {display: none @imp;}
-
+	.chooseDeviceIcon {
+		.modal-dialog {
+		width: 90%;margin: 10% auto;
+		form > div {border:none @imp;}
+		.select-icon {text-align: center;}
+		}
+	}
 	a.more-details, input.more-details, button.more-details {font-size: 12px;}
 
 	header {height: 80px;
@@ -165,6 +178,7 @@
 
 	article {
 		nav {display: none; }
+		.box.box-connected-devices {margin-top: 30px;}
 		.dashboard {margin-top: 20px;
 			.box {
 				.details {

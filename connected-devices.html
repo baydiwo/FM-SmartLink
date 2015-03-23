@@ -126,7 +126,7 @@
                                             <th>Network Access</th>
                                         </tr>
                                         <tr>
-                                            <td><div class="device-image"><img src="img/device1.jpg" alt=""></div></td>
+                                            <td><div class="device-image"><a title="Choose Icon" data-toggle="modal" data-target=".chooseDeviceIcon"><img src="img/devices/cisco_icon_64.png" alt="Router"><br/>android-9b659e6eb8949b05</a></div></td>
                                             <td>192.168.0.11</td>
                                             <td><span class="green">Online</span></td>
                                             <td>Ethernet</td>
@@ -143,7 +143,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td><div class="device-image"><img src="img/device1.jpg" alt=""></div></td>
+                                            <td><div class="device-image"><img src="img/devices/cisco_icon_64.png" alt=""></div></td>
                                             <td>192.168.0.11</td>
                                             <td><span class="green">Online</span></td>
                                             <td>Ethernet</td>
@@ -206,6 +206,52 @@
             </ul>
         </nav>
     </div>
+
+    <!-- modal -->
+    <div class="modal fade chooseDeviceIcon" tabindex="-1" role="dialog" aria-labelledby="chooseDeviceIcon" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                        <form action="">
+                            <div class="col-sm-3 col-xs-12">
+                                <div class="current-icon">
+                                    <h5>Current Icon</h5>
+                                    <img src="img/devices/cisco_icon_64.png" alt="device">
+                                    <div class="clearfix"></div>
+                                    <input type="text" class="form-acs" value="android-9b659e6eb8949b05">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xs-12">
+                                <div class="select-icon">
+                                    <h5>Select Icon</h5>
+                                    <ul class="list-inline">
+                                        <li><a href="#"><img src="img/devices/laptop_icon_64.png" alt=""></a></li>
+                                        <li><a href="#"><img src="img/devices/pc_icon_64.png" alt=""></a></li>
+                                        <li><a href="#"><img src="img/devices/stb_icon_64.png" alt=""></a></li>
+                                        <li><a href="#"><img src="img/devices/tablet_icon_64.png" alt=""></a></li>
+                                        <li><a href="#"><img src="img/devices/phone_icon_64.png" alt=""></a></li>
+                                        <li><a href="#"><img src="img/devices/game_icon_64.png" alt=""></a></li>
+                                        <li><a href="#"><img src="img/devices/modem_icon_64.png" alt=""></a></li>
+                                        <li><a href="#"><img src="img/devices/cisco_icon_64.png" alt=""></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-12">
+                                <div class="action-icon">
+                                    <input type="submit" class="more-details hvr-rectangle-out" value="Apply">
+                                    <input type="submit" class="more-details hvr-rectangle-out" value="Cancel">
+                                </div>
+                            </div>
+                        </div>
+                        </form>
+                    </div> <!--container fluid -->
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.js"></script>
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>

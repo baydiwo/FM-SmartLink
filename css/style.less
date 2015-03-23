@@ -193,6 +193,11 @@ input.more-details {
 	background: @black;
 }
 
+.overlay {
+	li.disabled {
+		a {pointer-events: none;color: #777;}
+	}
+}
 header {
 	height: 110px;
 	width: 100%;
@@ -368,6 +373,10 @@ article {
 					td {text-align: center;vertical-align: middle;border-bottom: 1px solid @lighterBlue;}
 				}
 			}
+			.device-image {
+				a {cursor: pointer;word-wrap:break-word;}
+				img {margin-bottom: 5px;}
+			}
 		}
 	}//connected devices
 	.wifi-setting {
@@ -448,3 +457,36 @@ article {
 		}
 	}//wifi-setting
 }//article
+.chooseDeviceIcon {
+	.modal-dialog {
+		width: 700px;
+		.modal-content {border:3px solid @blue;}
+		form {
+			> div:nth-child(2) {
+				border-right: 1px solid @lighterBlue;
+				border-left: 1px solid @lighterBlue;
+			}
+		}
+		.current-icon {
+			text-align: center;
+			img { padding: 20px 0;}
+		}
+		.select-icon {
+			ul {
+				li {
+					a {
+						float: left;
+						border:2px solid @white;
+						margin: 1px;
+						&:hover {border-color:@blue;}
+						img {width: 55px;}
+					}
+				}
+			}
+		}
+		.action-icon {
+			text-align: center;
+			input {margin-bottom: 10px;}
+		}
+	}
+}
