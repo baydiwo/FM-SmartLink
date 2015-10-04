@@ -143,6 +143,23 @@
 		.select-icon {text-align: center;}
 		}
 	}
+
+	.login-overlay {
+		.box {
+			// margin-top: 10%;
+			padding: 8%;
+			.form-login {
+				dl.dl-horizontal {
+					dt {width: 100%; text-align: center; }
+					dd {width: 100%;
+						input {
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
  }
 //ipad and tablet
 @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
@@ -188,7 +205,10 @@
 		}
 		dl.dl-horizontal , dl {height:auto @imp; dt,dd {font-size: 10px;margin-left: 0 @imp;}}
 	}
-
+	.login-overlay {
+		.box {margin-top: 10%;
+		}
+	}
 }
 @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
 

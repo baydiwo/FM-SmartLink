@@ -492,3 +492,66 @@ article {
 		}
 	}
 }
+
+//login overlay
+.login-overlay {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	background: rgba(255,255,255,0.9);
+	.transition(all 0.3s ease);
+
+	.box {
+		width: 100%;
+		border: 2px solid @blue;
+		background: #faf9f8;
+		padding: 40px;
+		overflow-y: hidden;
+		position: relative;
+		margin-top: 50%;
+		.border-radius(5px);
+
+		.bg-logoff {color: #eaecf1;}
+		[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+		[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+			font-family: Flaticon;
+		    font-size: 233px;
+		    font-style: normal;
+		    font-weight: bold;
+		    left: -120px;
+		    position: absolute;
+		    top: 106px;
+		}
+
+		.login-head {
+			width: 100%;
+			color: @blue;
+			margin-bottom: 20px;
+
+			h1 {
+				margin: 0 0 0 20px;
+				display: inline-block;
+				line-height: 0.8em;
+			}
+		}
+
+		.form-login {
+			position: relative;
+			z-index: 1;
+			dl.dl-horizontal {height: auto; margin-bottom: 10px;
+				dt {width: 30%;font-family: @gothamMed; text-align: left; color: @blue;}
+				dd {margin-left: 0px;width: 100%;margin-bottom: 10px;
+					input {
+						width: 70%;
+					}
+				}
+			}
+
+			.btn-sign-in {width: 100%;}
+
+		}
+	}//box
+}
