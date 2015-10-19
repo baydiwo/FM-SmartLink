@@ -1,4 +1,10 @@
 $(document).ready(function($) {
+    $(".sign-in").on("click", function(e) {
+        e.preventDefault();
+        // $(".login-overlay").css("display","none");
+        $(".login-overlay").addClass("overlay-hugeinc");
+    });
+
     $(".toggle div[id]").click(function() {
         var toggleid = this.id;
         var num = toggleid.replace( /^\D+/g, '');
