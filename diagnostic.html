@@ -100,6 +100,16 @@
                                 </div>
                             </div>
                         </div><!-- row -->
+                        <!-- alert -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="alert alert-warning alert-dismissible fade in" role="alert">
+                                    <button type="button" class="close" id="close-notif" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                    <strong>Please Wait!</strong> we are applying your changes.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- endofalert -->
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="page-content content-diagnostic">
@@ -112,7 +122,7 @@
                                         <div class="reboot pull-right">
                                             <!-- <input type="submit" class="more-details hvr-rectangle-out" value="Reboot the router"> -->
 
-                                            <button type="submit" class="more-details hvr-rectangle-out"><span class="glyphicon glyphicon-repeat" aria-hidden="true"></span> Reboot the router</button>
+                                            <button type="submit" id="show-notif" class="more-details hvr-rectangle-out"><span class="glyphicon glyphicon-repeat" aria-hidden="true"></span> Reboot the router</button>
                                         </div>
                                         <div class="clearfix"></div>
                                     </div><!-- setup -->
@@ -164,6 +174,7 @@
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 

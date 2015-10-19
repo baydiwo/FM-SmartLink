@@ -111,6 +111,16 @@
                                 </div>
                             </div>
                         </div><!-- row -->
+                        <!-- alert -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="alert alert-warning alert-dismissible fade in" role="alert">
+                                    <button type="button" class="close" id="hide-notif" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                    <strong>Please Wait!</strong> we are applying your changes.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- endofalert -->
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="page-content content-wifi-setting">
@@ -280,7 +290,7 @@
                                             </div></div>
                                             <div class="col-sm-6">
                                                 <div class="action">
-                                                    <input type="submit" class="more-details hvr-rectangle-out" value="Apply">
+                                                    <input type="submit" id="show-notif" class="more-details hvr-rectangle-out" value="Apply">
                                                     <input type="submit" class="more-details hvr-rectangle-out" value="Cancel">
                                                 </div>
                                             </div>
@@ -336,20 +346,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.js"></script>
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-    <script>
-    $(document).ready(function($) {
-        $(".toggle div[id]").click(function() {
-            var toggleid = this.id;
-            var num = toggleid.replace( /^\D+/g, '');
-            $('#slider-button-'+num).html($('#slider-button-'+num).text() == 'ON' ? 'OFF' : 'ON');
-            $( this ).toggleClass( "on", 50, "linear");
-        });
-        $('#switch-setup-1').click(function(){
-            $('.simple-setup').slideToggle();
-            $('.advanced-setup').slideToggle();
-        });
-    });
-    </script>
+    <script src="js/scripts.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 

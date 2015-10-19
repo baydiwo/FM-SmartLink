@@ -1,0 +1,565 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"image",
+				"$imageUrl〔variable〕"
+			],
+			[
+				"inc",
+				"inc/"
+			],
+			[
+				"the",
+				"the_field"
+			],
+			[
+				"jq",
+				"jquery"
+			],
+			[
+				"arr",
+				"array〔keyword〕"
+			],
+			[
+				"get_templ",
+				"get_template_directory_uri"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"art",
+				"article.php"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"head",
+				"header.php"
+			],
+			[
+				"incl",
+				"include〔keyword〕"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"ni",
+				"nivo-slider.css"
+			],
+			[
+				"da",
+				"dark/"
+			],
+			[
+				"de",
+				"default/"
+			],
+			[
+				"ba",
+				"bar/"
+			],
+			[
+				"niv",
+				"nivo-light/"
+			],
+			[
+				"sli",
+				"slider-dummy.jpg	w:770 h:470"
+			],
+			[
+				"sl",
+				"slider-dummy.jpg	w:770 h:470"
+			],
+			[
+				"s",
+				"slider-dummy.jpg	w:770 h:470"
+			],
+			[
+				"img",
+				"img/"
+			],
+			[
+				"sty",
+				"style	Attr"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"le",
+				"lesshat.less"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"icon",
+				"icon_search.jpg	w:28 h:27"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"fle",
+				"flexslider.less"
+			],
+			[
+				"row",
+				"row"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 12017,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "save",
+		"selected_items":
+		[
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"ad",
+				"Project: Add Folder"
+			],
+			[
+				"word",
+				"WordPress Developer: Open Function Reference"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"css3",
+				"CSS3: Validate"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"html",
+				"Snippet: bs3-html5-template"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/xampp/htdocs/fm/FM-SmartLink"
+	],
+	"file_history":
+	[
+		"/D/xampp/htdocs/hofris/wp-content/themes/hofris-html/single.php",
+		"/D/xampp/htdocs/hofris/wp-content/themes/hofris-html/slider.php",
+		"/D/xampp/htdocs/hofris/wp-config.php",
+		"/D/xampp/htdocs/hofris/wp-content/themes/hofris-html/homepage.php",
+		"/D/xampp/htdocs/hofris/wp-content/themes/hofris-html/header.php",
+		"/D/xampp/htdocs/hofris/wp-content/themes/hofris-html/footer.php",
+		"/D/xampp/htdocs/hofris/wp-content/themes/hofris-html/functions.php",
+		"/D/xampp/htdocs/Glass-is-Life/wp-content/themes/Glass-is-Life/homepage.php",
+		"/D/xampp/htdocs/Glass-is-Life/wp-content/themes/Glass-is-Life/single-rasa.php",
+		"/D/xampp/htdocs/Glass-is-Life/wp-content/themes/Glass-is-Life/single-kelestarian.php",
+		"/D/xampp/htdocs/Glass-is-Life/wp-content/themes/Glass-is-Life/page-hubungi-kami.php",
+		"/D/xampp/htdocs/Glass-is-Life/wp-content/themes/Glass-is-Life/page-tentang-o-i.php",
+		"/D/xampp/htdocs/Glass-is-Life/wp-content/themes/Glass-is-Life/page.php",
+		"/D/xampp/htdocs/Glass-is-Life/wp-content/themes/Glass-is-Life/template-parts/content-page.php",
+		"/D/xampp/htdocs/hofris/wp-content/themes/hofris/index.php",
+		"/D/xampp/htdocs/hofris/wp-content/themes/hofris-html/index.php",
+		"/D/xampp/htdocs/hofris/wp-content/themes/hofris/header.php",
+		"/D/xampp/htdocs/hofris/wp-content/themes/hofris/footer.php",
+		"/D/xampp/htdocs/hofris/wp-content/themes/hofris-html/style.less",
+		"/D/xampp/htdocs/hofris/wp-content/themes/hofris-html/head.php",
+		"/D/xampp/htdocs/hofris/index.php",
+		"/D/xampp/htdocs/hofris/nav.php",
+		"/D/xampp/htdocs/hofris/header.php",
+		"/D/xampp/htdocs/hofris/article.php",
+		"/D/xampp/htdocs/hofris/category.php",
+		"/D/xampp/htdocs/hofris/css/style.less",
+		"/D/xampp/htdocs/hofris/breadcrumbs.php",
+		"/D/xampp/htdocs/hofris/footer.php",
+		"/D/xampp/htdocs/hofris/slider.php",
+		"/D/xampp/htdocs/hofris/head.php",
+		"/D/xampp/htdocs/hofris/css/nivo-default/default.css",
+		"/D/xampp/htdocs/hofris/css/nivo-slider.css",
+		"/D/xampp/htdocs/hofris/js/script.js",
+		"/D/xampp/htdocs/test/Nivo-Slider-master/demo/demo.html",
+		"/C/Users/Bayu/AppData/Local/Temp/$$_5F76/woothemes-FlexSlider-83b3cae/demo/js/demo.js",
+		"/D/xampp/htdocs/corcomm/css/style.less",
+		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/Less2Css/README.md",
+		"/D/xampp/htdocs/hofris/css/style.css",
+		"/D/xampp/htdocs/hofris/css/flexslider.less",
+		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/AutoFileName/autofilename.sublime-settings",
+		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/DocBlockr/README.md",
+		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/Example.sublime-keymap",
+		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/Default (Windows).sublime-keymap",
+		"/C/Users/Bayu/.ssh/id_rsa.pub"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$query",
+			"Query",
+			"query",
+			"args",
+			"image",
+			"')",
+			"text",
+			"title",
+			"category",
+			"image",
+			"js/",
+			"href=\"\"",
+			"h2",
+			"row",
+			"col-md-6",
+			"background",
+			"border",
+			"height",
+			"<div class=\"graph\">\n                                    <img src=\"img/dummy.jpg\" alt=\"\" class=\"img-responsive\">\n                                </div>\n                                <div class=\"details\">\n                                    <h3>tanya dokter hofris</h3>\n                                    <h2>ristra founders</h2>\n                                    <h3>dr Indira (hofris)</h3>\n                                </div>",
+			"<div class=\"graph\">\n                                        <img src=\"img/dummy.jpg\" alt=\"\" class=\"img-responsive\">\n                                    </div>\n                                    <div class=\"details\">\n                                        <h3>profile</h3>\n                                        <h2>judul artikel</h2>\n                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, consectetur adipisicing elit,</p>\n                                    </div>",
+			"                                    <div class=\"graph\">\n                                        <img src=\"img/dummy.jpg\" alt=\"\" class=\"img-responsive\">\n                                    </div>\n                                    <div class=\"details\">\n                                        <h3>profile</h3>\n                                        <h2>judul artikel</h2>\n                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, consectetur adipisicing elit,</p>\n                                    </div>",
+			"<div class=\"graph\">\n                                        <img src=\"img/dummy.jpg\" alt=\"\" class=\"img-responsive\">\n                                    </div>\n                                    <div class=\"details\">\n                                        <h3>profile</h3>\n                                        <h2>judul artikel</h2>\n                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, consectetur adipisicing elit,</p>\n                                    </div>",
+			"font",
+			"col-md-4",
+			"css",
+			"tab"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<a href=\"\">\n                                        <div class=\"graph\">\n                                            <img src=\"img/dummy.jpg\" alt=\"\" class=\"img-responsive\">\n                                        </div>\n                                        <div class=\"details\">\n                                            <h3>profile</h3>\n                                            <h2>judul artikel</h2>\n                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, consectetur adipisicing elit,</p>\n                                        </div>\n                                    </a>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 12017,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "FMSmartlinkProject.sublime-project",
+	"replace":
+	{
+		"height": 328.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
